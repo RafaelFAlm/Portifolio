@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafael Almeida's Portifolio</title>
-</head>
+    <title>Rafael Almeida's Portifolio</title> <!-- Titulo aba da pagina-->
+    <link rel="stylesheet" type = "text/css" href="style.css"> <!-- adiciona estilo conforme o style.css-->
+    <style> <!-- estiliza elementos do texto do body-->
+        h1,h3 {
+            font-family:Arial, Helvetica,fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+        body {
+            background-color:gray;
+        }
+        #links{
+            font-size: 20px;
+            color:beige;
+
+        }
+        .lista{
+            font-size: 25px;
+            color:bisque
+
+        }
+    </style>
+</head> 
+
 <body>
-    <h1>Rafael Fernandes de Almeida</h1>
-    <img src="EU.jpeg" width="300px" alt="Foto de familia, precisa editar.">
-    <p id="about">Sou Brasileiro, nascido e criado no Rio de Janeiro, onde resido. Formado em Direito mas em processo de transicao de carreira para se tonar Web Developer!<br>
-    Atualmente estudando na <strong>Trybe</strong>.</p>
-    <p id="skills"> Tenho as seguintes abilidades:
-        <ol>
+    <h1>Rafael Fernandes de Almeida</h1> <!-- Titulo -->
+
+    <img src="EU.jpeg" width="300px" alt="Foto de familia, precisa editar."> <!-- Link da foto -->
+
+    <h3>Sobre mim:</h3>
+
+    <p id="about">Sou Brasileiro, nascido e criado no Rio de Janeiro, onde resido. Formado em Direito mas em processo de transicao de carreira para se tonar Web Developer!<br> 
+    Atualmente estudando na <strong>Trybe</strong>.</p> <!-- Paragrafo de descricao com identificador "about"-->
+    <p> Tenho as seguintes abilidades: <!-- Paragrafo com lista ordenada de abilidades, com identificador "skills" -->
+
+        <ol class="lista">
             <li>Ingles avancado</li>
             <li>Conhecimento juridico</li>
             <li>Comunicativo</li>
@@ -20,19 +48,21 @@
             <li>Programcao em C</li>
             <li>Algoritimos</li>   
         </ol>
+
     </p>
-    
+
     <ol>
-        <p>Links uteis:
-            <ol>
+        <p id="links">Links uteis: <!-- Paragrafo com lista desordenada com link para sessao de descricao e de abilidades, alem de links externos do git e linkedin-->
+            <ul>
                 <li><a href="#about">Descricao </a></li>
                 <li><a href="#skills">Abilidades </a></li>
                 <li><a href="https://github.com/RafaelFAlm" target="_blank">Github </a></li>
                 <li><a href="https://www.linkedin.com/in/rafael-almeida-0a40361a7/" target="_blank">Linkedin </a></li>
-            </ol>
-        </p>
+            </ul>
 
+        </p>
 
     </ol>
 </body>
+
 </html>
