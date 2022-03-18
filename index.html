@@ -1,48 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafael Almeida's Portifolio</title> <!-- Titulo aba da pagina-->
-    <link rel="stylesheet" type = "text/css" href="style.css"> <!-- adiciona estilo conforme o style.css-->
-</head> 
 
+    <title>Portfolio</title>
+<link rel ="stylesheet" type="text/css" href="style.css">
+
+</head>
 <body>
-    <h1>Rafael Fernandes de Almeida</h1> <!-- Titulo -->
-
-    <img src="EU.jpeg" width="300px" alt="Foto de familia, precisa editar."> <!-- Link da foto -->
-
-    <h3>Sobre mim:</h3>
-
-    <p id="about">Sou Brasileiro, nascido e criado no Rio de Janeiro, onde resido. Formado em Direito mas em processo de transicao de carreira para se tonar Web Developer!<br> 
-    Atualmente estudando na <strong>Trybe</strong>.</p> <!-- Paragrafo de descricao com identificador "about"-->
-    <p> Tenho as seguintes abilidades: <!-- Paragrafo com lista ordenada de abilidades, com identificador "skills" -->
-
-        <ol class="lista">
+    <header id = "header">
+        <h1 class = "Nome">Rafael Fernandes de Almeida</h1>
+        <img src="EU.jpeg" width="300px">
+    </header> 
+    <section id="sobreMim">
+        <p id = "text"> Sou formado em direito, estudante da Trybe e futuro webdesigner e esse eh o meu portifolio, ainda em formacao que estarei atualizando de tempos em tempos.</p>
+    </section>
+    <section id = "section1"> 
+        <ol class = "lista">
             <li>Ingles avancado</li>
-            <li>Conhecimento juridico</li>
-            <li>Comunicativo</li>
-            <li>Trabalho em equipe</li>
-            <li>Programcao em C</li>
-            <li>Algoritimos</li>   
+            <li>Comunicacao</li>
+            <li>Algoritimos</li>
+            <li>Linguagens C e JS</li>
+            <li>Trabalho em Equipe</li>
+            <li>Conhecimento Juridico</li>    
+        </ul>
+    </section>
+    <section id="section2">
+        <ul class ="lista">
+            <li>Projeto1</li>
+            <li>Projeto2</li>
+            <li>Github</li>
+            <li>Linkedin</li>
         </ol>
-
-    </p>
-
-    <ol>
-        <p id="links">Links uteis: <!-- Paragrafo com lista desordenada com link para sessao de descricao e de abilidades, alem de links externos do git e linkedin-->
-            <ul>
-                <li><a href="#about">Descricao </a></li>
-                <li><a href="#skills">Abilidades </a></li>
-                <li><a href="https://github.com/RafaelFAlm" target="_blank">Github </a></li>
-                <li><a href="https://www.linkedin.com/in/rafael-almeida-0a40361a7/" target="_blank">Linkedin </a></li>
-            </ul>
-
-        </p>
-
-    </ol>
+    </section>
+    
 </body>
-
 </html>
